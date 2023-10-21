@@ -7,7 +7,7 @@ import SideBar from "@/components/SideBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Task Manager",
+  title: "Travel Manager",
   description: "Dashboard that manages the task of an organisation or client",
 };
 

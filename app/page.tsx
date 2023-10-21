@@ -31,7 +31,7 @@ export default function Home() {
     toast("Login Successful", { position: toast.POSITION.TOP_RIGHT });
   };
   const submitData = (data: formDataType) => {
-    console.log("it work", data);
+    // console.log("it work", data);
     setISFormSubmitted(true);
     successNotify();
     setTimeout(() => {
@@ -40,12 +40,12 @@ export default function Home() {
   };
   return (
     <div className="relative w-full max-w-[1440px] mx-auto ">
-      {/* <div className="w-full h-[640px]">
-        <Image src="/images/formBackground.jpg" fill alt="formBackground" />
-      </div> */}
-      <div className="w-full h-full">
+      <div className="w-full h-[640px]">
+        <Image src="/images/loginBg.png" fill alt="formBackground" />
+      </div>
+      <div className="w-full h-full flex justify-center ">
         <form
-          className="md:w-3/5 lg:w-1/3  py-8 mx-auto bg-gray-100/40 rounded-md shadow-md px-4 md:p-8 my-10"
+          className="absolute top-14 md:w-3/5 lg:w-1/3  py-8 mx-auto bg-white rounded-md shadow-md px-4 md:p-8 my-10"
           onSubmit={handleSubmit(submitData)}
         >
           <div className="flex items-center justify-between w-full text-[#000000]">

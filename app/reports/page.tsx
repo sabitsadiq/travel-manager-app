@@ -4,7 +4,9 @@ import React from "react";
 const Page = () => {
   return (
     <Layout>
-      <h1>Page in progress....</h1>
+      <div className="h-screen">
+        <h1>Page in progress ...</h1>
+      </div>
     </Layout>
   );
 };

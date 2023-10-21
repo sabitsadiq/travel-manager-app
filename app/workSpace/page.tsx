@@ -5,7 +5,7 @@ import React from "react";
 const Page = () => {
   return (
     <Layout>
-      <div className="w-full py-8 md:pt-0 px-2">
+      <div className="w-full py-8 md:pt-0 px-2 h-full">
         <PageTitle main="Your Workspace" sub="Welcome,xxx" />
         <h1 className="font-semibold text-base my-2">Overview</h1>
         <div className="grid grid-cols-1 gap-y-8 md:grid-cols-2 md:gap-4 lg:gap-x-10 xl:gap-x-20 xl:w-10/12">
