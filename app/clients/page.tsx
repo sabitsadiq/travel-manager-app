@@ -43,7 +43,10 @@ const Page = () => {
             </thead>
             <tbody className="text-[#000000]/50 font-medium text-sm leading-5">
               {tableData.map((item) => (
-                <tr className="border border-b-[#000000]/10 px-6 hover:bg-[#DDAA33]/20 hover:border hover:border-l-2 hover:border-l-[#DDAA33] cursor-pointer ">
+                <tr
+                  className="border border-b-[#000000]/10 px-6 hover:bg-[#DDAA33]/20 hover:border hover:border-l-2 hover:border-l-[#DDAA33] cursor-pointe  "
+                  key={item.id}
+                >
                   <td className="px-6 py-4 whitespace-nowrap tracking-wider">
                     <Link href={`/clientProfile/${item.id}`}>{item.name}</Link>
                   </td>

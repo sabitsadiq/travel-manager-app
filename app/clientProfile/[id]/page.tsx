@@ -9,7 +9,9 @@ const page = () => {
     <Layout>
       <div className="h-full bg-gray-200 px-4 lg:px-8 py-10">
         <div className="bg-gray-300/40 rounded-lg p-4">
-          <h1 className="my-4 font-bold text-xl leading-4">Client's Picture</h1>
+          <h1 className="my-4 font-bold text-xl leading-4">
+            Client&apos;s Picture
+          </h1>
           <div className="flex flex-col w-full lg:flex-row gap-8 items-center mt-8 mb-4">
             <div>
               <Image
@@ -113,10 +115,11 @@ const page = () => {
             </div>
             <div className="mt-4">
               <h4>
-                Education<span>(Client's Highest level of education )</span>
+                Education
+                <span>(Client&apos;s Highest level of education )</span>
               </h4>
               <h2 className="mt-2 font-semibold text-base leading-4 text-black">
-                Bachelor's degree
+                Bachelor&apos;s degree
               </h2>
             </div>
             <div className="mt-4">

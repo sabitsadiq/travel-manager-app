@@ -14,7 +14,7 @@ const Page = () => {
         <div className="bg-gray-200 px-4 lg:px-10   pt-20">
           <div className="bg-gray-300/40 rounded-lg p-4">
             <h1 className="my-4 font-bold text-xl leading-4">
-              Client's Picture
+              Client&apos;s Picture
             </h1>
             <div className="flex flex-col w-full lg:flex-row gap-8 md:items-center mt-8 mb-4">
               <div className="flex items-center justify-center">
@@ -145,7 +145,7 @@ const Page = () => {
                   <label className="my-4">
                     Education
                     <span className="text-red-700 ml-2 font-normal">
-                      (client's highest level of education)
+                      (client&apos;s highest level of education)
                     </span>
                   </label>
                   <Input
