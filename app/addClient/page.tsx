@@ -30,22 +30,24 @@ const Page = () => {
                 <div className="w-full">
                   <Button
                     type="submit"
-                    styles="bg-[#DDAA33]/80 w-full rounded-lg px-5 py-3 text-white"
+                    styles="bg-[#DDAA33]/80 w-full rounded-md px-5 py-2 text-white"
                     title="Upload image"
                   />
                 </div>
                 <div className="w-full">
                   <Button
                     type="submit"
-                    styles="border w-full border-red-700 rounded-lg px-5 py-3 text-red-700"
+                    styles="border w-full border-red-700 rounded-md px-5 py-2 text-red-700"
                     title="Use Webcam"
                   />
                 </div>
               </div>
             </div>
           </div>
-          <div className="">
-            <h1>Enter clients details</h1>
+          <div className="mt-8">
+            <h1 className="leading-5 text-lg text-[#000000] font-semibold">
+              Enter clients details
+            </h1>
             <div className="flex  flex-col lg:flex-row  w-full gap-20 leading-5 text-sm text-[#000000] font-semibold">
               <div className="lg:w-1/2">
                 <div className="w-full my-2">
@@ -185,7 +187,7 @@ const Page = () => {
               <Link href="/clients">
                 <Button
                   type="button"
-                  styles="w-32 border border-red-700 px-2 py-2 w-1/3 rounded-md  font-semibold"
+                  styles="w-32 border border-red-700 px-2 py-2 w-1/3 rounded-md text-red-700  font-semibold"
                   title="Cancel"
                 />
               </Link>

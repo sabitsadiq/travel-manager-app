@@ -11,7 +11,7 @@ const Button = ({ type, title, styles }: ButtonType) => {
     <>
       <button
         type={type}
-        className={`rounded-lg font-semibold text-sm text-white ${styles}`}
+        className={`rounded-lg font-normal text-sm  ${styles}`}
       >
         {title}
       </button>

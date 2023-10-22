@@ -24,7 +24,7 @@ const Page = () => {
               <Link href="/addClient" className="w-1/2 md:w-1/3 lg:w-1/5">
                 <Button
                   type="submit"
-                  styles="px-4 py-3 flex w-full flex-1 items-center justify-center  bg-[#DDAA33] "
+                  styles="px-4 py-3 flex text-white w-full flex-1 items-center justify-center  bg-[#DDAA33] "
                   title="Add new Client"
                 />
               </Link>
