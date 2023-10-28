@@ -21,27 +21,42 @@ interface SideBarDataProps {
 const SideBarData: SideBarDataProps[] = [
   {
     id: "1",
-    icon: <TbLayoutDashboard />,
+    icon: <TbLayoutDashboard size="20" />,
     title: "Workspace",
     path: "/workSpace",
   },
   {
     id: "2",
-    icon: <MdOutlineGroups2 />,
+    icon: <MdOutlineGroups2 size="20" />,
     title: "Clients",
     path: "/clients",
   },
   {
     id: "3",
-    icon: <GrSchedules />,
+    icon: <GrSchedules size="20" />,
     title: "Schedule Appointment",
     path: "/scheduleAppointment",
   },
-  { id: "4", icon: <HiDocumentReport />, title: "Payments", path: "/payment" },
-  { id: "5", icon: <FaTasks />, title: "Task", path: "/task" },
-  { id: "6", icon: <AiOutlineMessage />, title: "Messages", path: "/message" },
+  {
+    id: "4",
+    icon: <HiDocumentReport size="20" />,
+    title: "Payments",
+    path: "/payment",
+  },
+  { id: "5", icon: <FaTasks size="20" />, title: "Task", path: "/task" },
+  {
+    id: "6",
+    icon: <AiOutlineMessage size="20" />,
+    title: "Messages",
+    path: "/message",
+  },
 
-  { id: "7", icon: <TbReportAnalytics />, title: "Reports", path: "/reports" },
+  {
+    id: "7",
+    icon: <TbReportAnalytics size="20" />,
+    title: "Reports",
+    path: "/reports",
+  },
 ];
 
 const SideBar = () => {
@@ -63,7 +78,7 @@ const SideBar = () => {
             <Link
               href={path}
               key={id}
-              className={`font-medium text-sm leading-5 p-2 flex items-center ${
+              className={`font-medium text-sm leading-5 px-3 h-10 my-4 flex items-center ${
                 pathname === path
                   ? "border-[#DDAA33] border-l-4 text-[#DDAA33]"
                   : ""

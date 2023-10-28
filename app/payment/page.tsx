@@ -5,6 +5,7 @@ import PageTitle from "@/components/PageTitle";
 import { paymentData, paymentLinkNav } from "@/components/data";
 import Link from "next/link";
 import React from "react";
+import { BiPlus } from "react-icons/bi";
 
 const Page = () => {
   return (
@@ -12,7 +13,7 @@ const Page = () => {
       <div className="h-full lg:h-screen">
         <div className="w-full flex flex-col">
           <PageTitle main="Payment" sub="Here's the history of payment" />
-          <div className="bg-gray-200 px-4">
+          <div className="bg-gray-200 px-2">
             <div className="flex flex-col md:flex-row  md:w-full gap-3 xl:gap-6 md:items-center md:flex-1">
               <Input
                 placeholder="Search by name,email..."
@@ -21,17 +22,21 @@ const Page = () => {
                 type="text"
                 title="search"
               />
-              <Link href="/createInvoice" className="w-1/2 md:w-1/3 lg:w-1/5">
-                <Button
-                  type="submit"
-                  styles="px-4 py-3 flex text-white w-full flex-1 items-center justify-center  bg-[#DDAA33] "
-                  title="Create invoice"
-                />
+              <Link
+                href="/createInvoice"
+                className=" md:w-1/4 lg:w-1/3 xl:w-1/4"
+              >
+                <button className="rounded-lg px-4 py-3 flex gap-2 text-white w-full flex-1 items-center justify-center  bg-[#DDAA33] ">
+                  <span className="">
+                    <BiPlus />
+                  </span>
+                  Create invoice
+                </button>
               </Link>
             </div>
           </div>
         </div>
-        <div className="hidden lg:flex gap-5 items-center border border-b border-b-[#000000]/10 bg-gray-200">
+        <div className="hidden lg:flex gap-5 items-center  border border-b border-b-[#000000]/10 bg-gray-200">
           {paymentLinkNav.map(({ path, id, name }) => (
             <Link href={`/${path}`} key={id}>
               <Button
@@ -42,7 +47,7 @@ const Page = () => {
             </Link>
           ))}
         </div>
-        <div className="mt-4 w-full overflow-auto">
+        <div className="mt-4 w-full overflow-auto pb-10">
           <table className="w-full">
             <thead className="text-sm leading-3 font-bold bg-[#DDAA33]/20">
               <tr className="border border-b-2 border-b-[#DDAA33]">

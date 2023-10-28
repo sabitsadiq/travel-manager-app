@@ -119,31 +119,31 @@ export const paymentLinkNav: paymenLinkProps[] = [
   {
     id: "0",
     name: "All status",
-    path: "/",
+    path: "payment",
   },
   {
     id: "1",
     name: "Draft",
-    path: "/",
+    path: "payment",
   },
   {
     id: "2",
     name: "Pending",
-    path: "/",
+    path: "payment",
   },
   {
     id: "3",
     name: "Paid",
-    path: "/",
+    path: "payment",
   },
   {
     id: "4",
     name: "Rejected",
-    path: "/",
+    path: "payment",
   },
   {
     id: "5",
     name: "Cancelled",
-    path: "/",
+    path: "payment",
   },
 ];

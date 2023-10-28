@@ -10,8 +10,8 @@ const Page = () => {
     <Layout>
       <div className="h-screen">
         <PageTitle main="Add Appointment" sub="Add a new appointment here" />
-        <div className="bg-gray-200 p-4 lg:p-8 mt-4">
-          <h1 className="font-semibold text-lg leading-5 text-[#000000]">
+        <div className="bg-gray-200 p-4 md:p-8 mt-4">
+          <h1 className="font-semibold text-base leading-5 text-[#000000]">
             Enter Appointment details
           </h1>
           <form>

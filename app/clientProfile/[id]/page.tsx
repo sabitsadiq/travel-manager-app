@@ -12,10 +12,10 @@ const page = () => {
           <h1 className="my-4 font-bold text-xl leading-4">
             Client&apos;s Picture
           </h1>
-          <div className="flex flex-col w-full lg:flex-row gap-8 items-center mt-8 mb-4">
-            <div>
+          <div className="flex flex-col w-full md:flex-row gap-8 md:items-center mt-8 mb-4">
+            <div className=" flex justify-center  items-center">
               <Image
-                className="rounded-full"
+                className="rounded-full "
                 src="/images/avatar.jpg"
                 width={100}
                 height={100}
@@ -25,7 +25,7 @@ const page = () => {
             <div className="text-base font-medium text-black/50 ">
               <div className="w-full">
                 <div>
-                  <h1 className="font-semibold text-xl leading-4 text-black">
+                  <h1 className="font-semibold text-sm leading-4 text-black">
                     odunsote mayokon
                   </h1>
                   <span className="my-1">adegoketemitope@gmail.com</span>
@@ -39,11 +39,11 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-center gap-4 lg:gap-20 mt-20 text-base font-medium text-black/50">
+        <div className="flex flex-col md:px-4 lg:flex-row justify-center gap-4 lg:gap-20 mt-20 text-base font-medium text-black/50">
           <div className="lg:w-1/2">
             <div className="">
               <h4>Full name</h4>
-              <h2 className=" mt-2 font-semibold text-base leading-4 text-black">
+              <h2 className=" mt-2 font-semibold text-sm leading-4 text-black">
                 odunsote mayokon
               </h2>
             </div>
@@ -51,45 +51,45 @@ const page = () => {
               <h4>
                 Applicant Fullname <span>(as shown in the passport)</span>
               </h4>
-              <h2 className="mt-2 font-semibold text-base leading-4 text-black">
+              <h2 className="mt-2 font-semibold text-sm leading-4 text-black">
                 Odunsote Mayokon Kemi
               </h2>
             </div>
             <div className="mt-4 flex justify-between w-4/5">
               <div>
                 <h4>Place of Birth</h4>
-                <h2 className="mt-2 font-semibold text-base leading-4 text-black">
+                <h2 className="mt-2 font-semibold text-sm leading-4 text-black">
                   Nigeria
                 </h2>
               </div>
               <div>
                 <h4>Date of Birth</h4>
-                <h2 className="mt-2 font-semibold text-base leading-4 text-black">
+                <h2 className="mt-2 font-semibold text-sm leading-4 text-black">
                   04/11/2012
                 </h2>
               </div>
             </div>
             <div className="mt-4">
               <h4>Marital Status</h4>
-              <h2 className="mt-2 font-semibold text-base leading-4 text-black">
+              <h2 className="mt-2 font-semibold text-sm leading-4 text-black">
                 Married
               </h2>
             </div>
             <div className="mt-4">
               <h4>Current Occupation</h4>
-              <h2 className="mt-2 font-semibold text-base leading-4 text-black">
+              <h2 className="mt-2 font-semibold text-sm leading-4 text-black">
                 Engineer
               </h2>
             </div>
             <div className="mt-4">
               <h4>Residential Address</h4>
-              <h2 className="mt-2 font-semibold text-base leading-4 text-black">
+              <h2 className="mt-2 font-semibold text-sm leading-4 text-black">
                 No.2, Olonade Close, Monato,Ibadan,Oyo State,Nigeria
               </h2>
             </div>
             <div className="mt-4">
               <h4>Country of interest</h4>
-              <h2 className="mt-2 font-semibold text-base leading-4 text-black">
+              <h2 className="mt-2 font-semibold text-sm leading-4 text-black">
                 Iceland
               </h2>
             </div>
@@ -97,19 +97,19 @@ const page = () => {
           <div className="lg:w-1/2">
             <div>
               <h4>Email</h4>
-              <h2 className="mt-2 font-semibold text-base leading-4 text-black">
+              <h2 className="mt-2 font-semibold text-sm leading-4 text-black">
                 adegoketemitope@gmail.com
               </h2>
             </div>
             <div className="mt-4">
               <h4>gender</h4>
-              <h2 className="mt-2 font-semibold text-base leading-4 text-black">
+              <h2 className="mt-2 font-semibold text-sm leading-4 text-black">
                 Female
               </h2>
             </div>
             <div className="mt-4">
               <h4>Country of citizenship</h4>
-              <h2 className="font-semibold text-base leading-4 text-black  mt-2">
+              <h2 className="font-semibold text-sm leading-4 text-black  mt-2">
                 Nigeria, Uganda
               </h2>
             </div>
@@ -118,25 +118,25 @@ const page = () => {
                 Education
                 <span>(Client&apos;s Highest level of education )</span>
               </h4>
-              <h2 className="mt-2 font-semibold text-base leading-4 text-black">
+              <h2 className="mt-2 font-semibold text-sm leading-4 text-black">
                 Bachelor&apos;s degree
               </h2>
             </div>
             <div className="mt-4">
               <h4>Phone Number</h4>
-              <h2 className="mt-2 font-semibold text-base leading-4 text-black">
+              <h2 className="mt-2 font-semibold text-sm leading-4 text-black">
                 +234(0)8160730668
               </h2>
             </div>
             <div className="mt-4">
               <h4>Mailing Address</h4>
-              <h2 className="font-semibold text-base leading-4 text-black mt-2">
+              <h2 className="font-semibold text-sm leading-4 text-black mt-2">
                 No.2, Olonade Close, Monato,Ibadan,Oyo State,Nigeria
               </h2>
             </div>
             <div className="mt-4">
               <h4>Purpose of training</h4>
-              <h2 className="font-semibold text-base base mt-2 leading-4 text-black">
+              <h2 className="font-semibold text-sm mt-2 leading-4 text-black">
                 Trading
               </h2>
             </div>

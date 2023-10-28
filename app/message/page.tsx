@@ -2,6 +2,7 @@ import Button from "@/components/Button";
 import Input from "@/components/Input";
 import Layout from "@/components/MainLayout/Layout";
 import PageTitle from "@/components/PageTitle";
+import { ImCancelCircle } from "react-icons/im";
 import { paymentData, paymentLinkNav } from "@/components/data";
 import Link from "next/link";
 import React from "react";
@@ -30,8 +31,22 @@ const Page = () => {
               </Link>
             </div>
             <form>
-              <div className="my-4 flex flex-col md:flex-row gap-20 leading-5 text-sm text-[#000000] font-semibold">
+              <div className="my-4 flex flex-col md:flex-row gap-20 lg:gap-8 2xl:gap-20 leading-5 text-sm text-[#000000] font-semibold">
                 <div className="md:w-1/2">
+                  <div className="w-full my-2">
+                    <label className="my-4">Enter message details</label>
+                    <div className="grid  grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 font-normal justify-between items-center gap-2 mt-2 lg:h-20">
+                      <span className="flex gap-2 items-center px-2 bg-gray-300 rounded-full w-fit">
+                        Moremi Oloriola <ImCancelCircle />
+                      </span>
+                      <span className="flex gap-2 items-center px-2 bg-gray-300  rounded-full w-fit">
+                        Moremi Oloriola <ImCancelCircle />
+                      </span>
+                      <span className="flex gap-2 items-center px-2 bg-gray-300 rounded-full w-fit">
+                        Moremi Oloriola <ImCancelCircle />
+                      </span>
+                    </div>
+                  </div>
                   <div className="my-2">
                     <label className="my-4">Reciever(s)</label>
                     <Input
@@ -41,7 +56,7 @@ const Page = () => {
                     />
                   </div>
                 </div>
-                <div className="lg:w-1/2">
+                <div className="md:w-1/2">
                   <div className="w-full my-2">
                     <label className="my-4">Subject</label>
                     <Input

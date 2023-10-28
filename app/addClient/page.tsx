@@ -11,12 +11,12 @@ const Page = () => {
     <Layout>
       <div className="h-full">
         <PageTitle main="Add client" sub="Add a new client" />
-        <div className="bg-gray-200 px-4 lg:px-10   pt-20">
+        <div className="bg-gray-200 px-4 lg:px-10   py-20">
           <div className="bg-gray-300/40 rounded-lg p-4">
-            <h1 className="my-4 font-bold text-xl leading-4">
+            <h1 className="my-4 font-bold text-base leading-4">
               Client&apos;s Picture
             </h1>
-            <div className="flex flex-col w-full lg:flex-row gap-8 md:items-center mt-8 mb-4">
+            <div className="flex flex-col w-full md:flex-row gap-8 md:items-center mt-8 mb-4">
               <div className="flex items-center justify-center">
                 <Image
                   className="rounded-full "
@@ -45,11 +45,11 @@ const Page = () => {
             </div>
           </div>
           <div className="mt-8">
-            <h1 className="leading-5 text-lg text-[#000000] font-semibold">
+            <h1 className="leading-5 text-base text-[#000000] font-semibold">
               Enter clients details
             </h1>
-            <div className="flex  flex-col lg:flex-row  w-full gap-20 leading-5 text-sm text-[#000000] font-semibold">
-              <div className="lg:w-1/2">
+            <div className="flex  flex-col md:flex-row  w-full gap-20 leading-5 text-sm text-[#000000] font-semibold">
+              <div className="md:w-1/2">
                 <div className="w-full my-2">
                   <label className="my-4">Full Name</label>
                   <Input
@@ -118,7 +118,7 @@ const Page = () => {
                   />
                 </div>
               </div>
-              <div className="lg:w-1/2">
+              <div className="md:w-1/2">
                 <div className="w-full my-2">
                   <label className="my-4">Email</label>
                   <Input
