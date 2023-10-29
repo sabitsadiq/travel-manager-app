@@ -45,7 +45,7 @@ export default function Home() {
       </div>
       <div className="w-full h-full flex justify-center ">
         <form
-          className="absolute top-14 md:w-3/5 lg:w-1/3  py-8 mx-auto bg-white rounded-md shadow-md px-4 md:p-8 my-10"
+          className="absolute top-14 md:w-3/5 lg:w-1/3 h-[460px]  py-8 mx-auto bg-white rounded-md shadow-md px-4 md:p-8 my-10"
           onSubmit={handleSubmit(submitData)}
         >
           <div className="flex items-center justify-between w-full text-[#000000]">
@@ -54,7 +54,12 @@ export default function Home() {
               <h4>Login to Your account</h4>
             </div>
             <div>
-              <Image src="/images/logo.png" width={50} height={50} alt="logo" />
+              <Image
+                src="/images/brandLogo.png"
+                width={100}
+                height={100}
+                alt="logo"
+              />
             </div>
           </div>
           <div className="flex flex-col gap-4 mt-7">
@@ -86,7 +91,7 @@ export default function Home() {
             </div>
             <button
               type="submit"
-              className="p-1.5 bg-[#DDAA33] text-white rounded-sm w-4/5 mx-auto mt-5"
+              className="py-3 px-3 bg-[#DDAA33] text-white rounded-sm w-11/12 mx-auto mt-5"
             >
               Login
             </button>

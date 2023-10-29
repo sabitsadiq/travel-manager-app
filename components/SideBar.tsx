@@ -65,7 +65,7 @@ const SideBar = () => {
     <div className="fixed top-0 mt-20 h-full">
       <div>
         <Image
-          src="/images/logo.png"
+          src="/images/brandLogo.png"
           className="rounded-full mx-auto"
           width={70}
           height={70}
