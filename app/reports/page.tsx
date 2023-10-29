@@ -8,7 +8,7 @@ import { RiArrowDownSFill } from "react-icons/ri";
 const Page = () => {
   return (
     <Layout>
-      <div className="h-full 2xl:h-screen">
+      <div className="h-full xl:h-screen">
         <PageTitle main="Activity Report" sub="view all activity reports" />
         <div className="px-4 mt-5 ">
           <div className="bg-gray-200 px-2 md:px-8 pt-4  rounded-lg">
