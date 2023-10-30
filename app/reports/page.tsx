@@ -20,7 +20,7 @@ const Page = () => {
                   <RiArrowDownSFill size="20" />
                 </div>
               </div>
-              <div className="mt-8 text-gray-500/90 font-medium text-base">
+              <div className="mt-8 text-gray-500/90 font-medium text-sm">
                 <div className="flex flex-col lg:flex-row gap-1 flex-1 lg:items-center ">
                   <h2 className="lg:w-1/4">Thursday,January 14th</h2>
                   <div className="w-full">
