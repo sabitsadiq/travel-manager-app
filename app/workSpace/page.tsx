@@ -11,7 +11,7 @@ const Page = () => {
         <div className="grid grid-cols-1 gap-y-8 px-4 md:grid-cols-2 md:gap-4 lg:gap-x-10 xl:gap-x-20 xl:w-10/12">
           <div className="shadow-md rounded-b-lg">
             <span className="p-1 flex flex-1 bg-[#DDAA33]  w-[99.5%] mx-auto"></span>
-            <div className="h-full rounded-lg h-44">
+            <div className=" rounded-lg h-44">
               <h1 className="w-full bg-[#DDAA33]/10 font-semibold text-base py-1 px-4">
                 Today&apos;s Agenda
               </h1>
